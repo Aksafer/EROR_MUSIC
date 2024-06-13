@@ -19,7 +19,7 @@
       },
       "OWNER_ID": {
         "description": "⦗ ايـــدي المطـــور ⦘ ↫ مطـــور بـــوت الميـــوزك",
-        "value": "",
+        "value": "6092147148",
         "required": true
       },
       "STRING_SESSION": {
@@ -39,7 +39,7 @@
       },
       "LOGGER_ID": {
         "description": "ايـدي قروب السـجل",
-        "value": "-100",
+        "value": "-1002078123495",
         "required": true
       }
     },

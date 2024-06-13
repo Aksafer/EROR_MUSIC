@@ -49,3 +49,24 @@ async def huhh(client, message):
            ]
         )
     )
+
+
+@app.on_message(filters.command("مح", [".", ""]) & filters.group & filters.reply)
+async def huhh(client, message):
+    user = message.from_user
+    await message.reply_animation(
+        animation="https://telegra.ph/file/3dd136786231ab017bd53.mp4",
+        caption=f"""القميل هذا ✨♥قتل ↫ ⦗ {message.from_user.mention} ⦘\nبعتلك بوسه يا 😘♥ ↫ ⦗ {message.reply_to_message.from_user.mention} ⦘\n عيب كده اي المحن ده 😹""",
+        reply_markup=InlineKeyboardMarkup(
+            [
+               [
+                   InlineKeyboardButton(
+                       "المتباس 💋", url=f"https://t.me/{message.reply_to_message.from_user.username}"
+                   )],[
+                   InlineKeyboardButton(
+                       "‹ 𝙴𝚁𝙾𝚁 ›", url="https://t.me/Y_D_ll"),
+               ],
+           ]
+        )
+    )
+ 
